@@ -37,6 +37,9 @@ public class java{
                 ans = cl.divide(num1, num2);
             }
             System.out.println("Your answer is: " + ans);
+            if(num2==0){
+            System.out.println("Cannot divide by zero");
+            }
         }
         while(num1>=0 && num2>=0);
     }
